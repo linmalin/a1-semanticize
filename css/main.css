@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('fonts/sourcesanspro-regular-webfont.eot');
+    src: url('fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-regular-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-regular-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
 	background:url(../images/bg1.gif);
 	font:13px verdana, arial, sans-serif;
@@ -5,13 +16,13 @@ body {
 }
 
 h1 {
-	text-shadow:-1px -1px 4px #787777;
+	text-shadow:1px 1px 3px #787777;
 	font:34px georgia, "Times New Roman", Times, serif;
-	color:#fff;
+	color:#e5e5e5;
 }
 
 h2 {
-	font:32px georgia, "Times New Roman", Times, serif;
+	font:32px source_sans_proregular, georgia, "Times New Roman", Times, serif;
 	color:#333;
 }
 
@@ -63,6 +74,7 @@ form label {font-weight:bold;}
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	border:1px solid #CCC;
+	
 }
 
 header {
@@ -144,7 +156,7 @@ figure {
 
 }
 figcaption{
-	dispay:block;
+	/*dispay:block;*/
 }
 
 
